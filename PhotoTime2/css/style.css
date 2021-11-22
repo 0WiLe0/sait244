@@ -1,0 +1,816 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*header*/
+
+header {
+    background-repeat: no-repeat;
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 1100px;
+}
+
+.header {
+    display: flex;
+
+}
+.dropbtn{
+    display: none;
+}
+.menu_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+}
+
+.menu_list a {
+    transition-duration: 0.5s;
+    border-bottom: solid 2px transparent;
+}
+
+.menu_list a:hover {
+    transition-duration: 0.5s;
+    border-bottom: solid 2px white;
+}
+
+.link {
+    display: block;
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+/* второй слайд*/
+
+.title_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 412px;
+    color: white;
+    flex-direction: column;
+}
+.text_info{
+    justify-content: center;
+}
+.title {
+    font-size: 77px;
+}
+
+.title2 {
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+
+.button {
+    transition-duration: 0.5s;
+    text-decoration: none;
+    color: white;
+    border: solid 1px #32a854;
+    background-color: #32a854;
+    padding: 20px 50px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    transition-duration: 0.5s;
+    color: #32a854;
+    border: solid 1px #32a854;
+    background-color: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+.info_link {
+    display: block;
+    margin-top: 350px;
+}
+
+.two {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/2.png);
+    height: 675px;
+}
+
+.information {
+    width: 500px;
+}
+
+.information_title {
+    color: #32a854;
+    padding-top: 200px;
+}
+
+.information_text {
+    color: #b3b3b3;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.information_text b {
+    color: #757575;
+}
+
+/*третий слайд*/
+
+.three {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/3.png);
+    height: 675px;
+}
+
+.three_section {
+    margin-left: 572px;
+    width: 500px;
+
+}
+
+.three_number {
+    margin-top: 50px;
+}
+
+.three_number {
+    font-weight: bold;
+    color: #757575;
+    margin-left: 12px;
+}
+
+.stics {
+    padding-left: 12px;
+    text-decoration: none;
+}
+
+/*slider*/
+.swiper-container {
+    width: 700px;
+    margin-left: 0;
+}
+
+/*четвертый слайд*/
+
+.four {
+    background-color: #e6e6e6;
+    padding: 1px 0;
+}
+
+.four_section {
+    display: flex;
+    margin: 15px 0 100px 0;
+}
+
+.four_group {
+    text-align: center;
+    width: 200px;
+    margin-right: 25px;
+}
+
+.four_title {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.four_text {
+    margin-top: 25px;
+    font-size: 12px;
+}
+
+.four_img {
+    display: flex;
+}
+
+.img {
+    margin-left: 25px;
+}
+
+.stics_24 {
+    display: flex;
+    width: 1000px;
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.stics_2 {
+    margin-right: 12px;
+}
+
+/*пятый слайд*/
+
+.five {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/Livello-3.png);
+    height: 1000px;
+}
+
+.five_section {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.five_title {
+    color: white;
+    font-size: 50px;
+    margin-top: 45%;
+    margin-bottom: 20px;
+}
+
+/* поисковик */
+
+.screach {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.screach_email {
+    width: 100%;
+    height: 58px;
+    padding-left: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    outline: none;
+    background: white;
+    color: #5e5e5e;
+}
+
+.button_screach {
+    transition-duration: 0.5s;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 58px;
+    height: 58px;
+    border: none;
+    background: #32a854;
+    border-radius: 5%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.button_screach:hover {
+    transition-duration: 0.5s;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 58px;
+    height: 58px;
+    border: none;
+    background: #7acc7e;
+    border-radius: 5%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*шестой слайд*/
+
+.six {
+    background-color: #e6e6e6;
+    height: 400px;
+}
+
+.six_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    width: 782px;
+    text-align: center;
+}
+
+.six_title {
+    padding-top: 100px;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.six_text {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.six_button {
+    transition-duration: 0.5s;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    border: solid 2px #32a854;
+    border-radius: 5px;
+    background-color: #32a854;
+    padding: 15px 150px 15px 15px;
+    margin: 0 10px;
+    margin-bottom: 100px;
+}
+
+.six_button:hover {
+    transition-duration: 0.5s;
+    position: relative;
+    color: #32a854;
+    text-decoration: none;
+    border: solid 2px #32a854;
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px 150px 15px 15px;
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+
+.six_button img .six_img1 .six_img2 {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    padding: 15px 13px 15px 13px;
+    background-color: #2a9c48;
+
+}
+
+.six_img2 {
+    position: absolute;
+    border-radius-top: 3px;
+    top: -1px;
+    right: -1px;
+    padding: 14px 13px 8px 13px;
+    background-color: #2a9c48;
+}
+
+.six_img1 {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    padding: 14px 13px 13px 13px;
+    background-color: #2a9c48;
+}
+
+/* footer */
+
+.footer {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0px;
+    color: #424242;
+    font-weight: bold;
+}
+
+.sev_menu_list {}
+
+.sev_menu_list a {
+    transition-duration: 0.5s;
+    color: #424242;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding: 0 5px;
+}
+
+.sev_menu_list a:hover {
+    transition-duration: 0.5s;
+    border-bottom: 2px solid #2a9c48;
+}
+
+.s_list {
+    border-right: solid 2px #2a9c48;
+    border-left: solid 2px #2a9c48;
+}
+
+.p {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+/* Адаптив */
+
+@media (max-width:1152px) {
+    .container {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    /*header*/
+    header {
+        background-repeat: no-repeat;
+        background-image: url(../img/background.png);
+        background-size: cover;
+        height: 1100px;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .menu_list {
+        display: flex;
+        margin: 0 auto;
+        width: 782px
+    }
+
+    .menu_list a {
+        transition-duration: 0.5s;
+        border-bottom: solid 2px transparent;
+    }
+
+    .menu_list a:hover {
+        transition-duration: 0.5s;
+        border-bottom: solid 2px white;
+    }
+
+    .link {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    /*второй слайд*/
+    .title_info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 412px;
+        color: white;
+        flex-direction: column;
+    }
+    .text_info{
+        justify-content: center;
+    }
+    .title {
+        font-size: 52px;
+    }
+
+    .title2 {
+        font-size: 26px;
+        margin-bottom: 50px;
+    }
+
+    .info_link {
+        display: block;
+        margin-top: 350px;
+    }
+
+    .two {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/24.png);
+        height: 675px;
+    }
+
+    .information {
+        width: 500px;
+    }
+
+    .information_title {
+        color: #32a854;
+        padding-top: 200px;
+    }
+
+    /*третий слайд*/
+    .three {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/3.png);
+        height: 675px;
+    }
+    .three_section {
+        margin-left: 412px;
+        width: 401px;
+    }
+
+    .three_number {
+        margin-top: 50px;
+    }
+    /*четвертый слайд*/
+
+    .four {
+        background-color: #e6e6e6;
+        padding: 1px 0;
+    }
+
+    .four_section {
+        display: flex;
+        flex-direction: column;
+        margin: 100px 0 100px 0;
+    }
+
+    .four_group {
+        text-align: center;
+        width: 400px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .four_title {
+        font-size: 35px;
+        margin-top: 25px;
+    }
+
+    .four_text {
+        margin-top: 25px;
+        font-size: 20px;
+    }
+
+    .four_img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img {
+        margin-left: 0;
+        margin-top: 25px;
+    }
+
+    .stics_24 {
+        display: none;
+    }
+}
+@media (max-width:1024px) {
+    .menu_list{
+        w
+    }
+    .title {
+        font-size: 47px;
+    }
+    .three_section {
+        margin-left: 440px;
+        width: 372px;
+    }
+    .two {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/24.png);
+        height: 675px;
+    }
+    .title2 {
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .information_text{
+        width: 320px;
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .menu_list{
+        width: 717px;
+    }
+    .title {
+        font-size: 47px;
+    }
+    .three_section {
+        margin-left: 345px;
+        width: 372px;
+    }
+    .title2 {
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .information_text{
+        width: 294px;
+        font-size: 14px;
+    }
+    .six_text{
+
+    }
+    .six_section{
+        font-size: 17px;
+        width: 700px;
+    }
+    .three_title{
+
+    }
+    .three {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/32.png);
+        height: 675px;
+    }
+    .two {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/24.png);
+        height: 675px;
+    }
+}
+@media (max-width:425px) {
+
+    .header-active{
+        display: flex;
+    }
+    .container{
+        width: 390px;
+    }
+    .information{
+        margin-right: 0;
+        width: 213px;
+    }
+    .information_title{
+        font-size: 18px;
+        margin: 0 auto;
+    }
+    .information_text{
+        width: 230px;
+        font-size: 14px;
+    }
+    .two {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/2425.png);
+        height: 675px;
+    } 
+    .menu_list{
+        display: flex;
+        flex-direction:  column;
+        justify-content: start;
+        width: 216px;
+    }
+    .menu_list .logo_img{
+        display: none;
+    }
+    .dropbtn {
+        display: inline-block;
+        background-color:#32a854;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        margin-top: 50px;
+        margin-left: 50px;
+        opacity: .5;
+    }    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        opacity: .3;
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 43px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:nth-child(2) {
+        color: black;
+        padding: 12px 31px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:nth-child(5) {
+        color: black;
+        padding: 12px 31px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {background-color: #f1f1f1;opacity: 0.6;}
+    .dropdown:hover .dropdown-content {display: block;}
+    .dropdown:hover .dropbtn {background-color:#32a854;} 
+    .dropdown-content + .dropdown:hover  {display: none;} 
+
+    .three_section{
+        margin-left: 208px;
+        width: 137px;
+    }
+    .six_section{
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        height: 322px;    
+    }
+    .six_buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .six_button{
+        margin-bottom: 12px;
+    }
+    .information_text{
+        width: 184px;
+        font-size: 12px;
+    }
+    .title{
+        font-size: 43px;
+    }
+    .information_titles .button{
+        padding: 20px 25px;
+    }
+    .five_title{
+        font-size: 32px;
+    }
+    .p{
+        font-size: 16px;
+    }
+    .six_text{
+        font-size: 17px;
+    }
+}
+@media (max-width:375px) {
+    .container{
+        width: 355px
+    }
+    .information_title{
+        font-size: 18px;
+        padding-top: 118px;
+    }
+    .information_text{
+        width: 213px;
+        font-size: 12px;
+    }
+    .information{
+        margin-left: 50px
+    }
+    .three{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/326.png);
+        height: 675px;
+    }
+    .three_section{
+        margin-left: 134px;
+    }
+    .title{
+        font-size: 35px;
+    }
+    .four_group{
+        width: 324px;
+    }
+    .five_title{
+        font-size: 28px;
+    }
+
+}
+@media (max-width:320px) {
+    .container{
+        width: 310px;
+    }
+    .img{
+        width: 86%;
+    }
+    .three_section{
+        margin-left: 105px;
+    }
+    .six_section{
+        width: 284px;
+    }
+    .information_text{
+        width: 175px;
+    }
+    .five_title{
+        font-size: 24px;
+    }
+    .screach_email{
+        margin-left: 6px;
+    }
+    .button_screach{
+        right: -7px;
+    }
+    .sev_menu_list{
+        font-size: 12px;
+    }
+    .sev_menu{
+        margin-left: 10px;
+    }
+    .p{
+        font-size: 14px;
+    }
+}
